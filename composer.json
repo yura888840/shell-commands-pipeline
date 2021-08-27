@@ -1,0 +1,37 @@
+{
+    "name": "deepvibe/shell-commands-pipeline",
+    "description": "Shell Commands Execution Pipeline",
+    "type": "library",
+    "require": {
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^0.12.96",
+        "phpstan/phpstan-phpunit": "^0.12.22",
+        "jangregor/phpstan-prophecy": "^0.8.1",
+        "phpspec/prophecy-phpunit": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Deepvibe\\ShellCommandsPipeline\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deepvibe\\ShellCommandsPipeline\\Tests\\": "./tests"
+        }
+    },
+    "scripts": {
+        "analyse": "phpstan analyse -l 4 src",
+        "test": "phpunit -c phpunit.xml",
+        "coverage": "phpunit -c phpunit.xml --coverage-clover=coverage.xml"
+    },
+    "authors": [
+        {
+            "name": "Yurii Oblovatskyi",
+            "email": "yuriyobl@gmail.com"
+        }
+    ]
+}
