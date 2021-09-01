@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Deepvibe\ShellCommandsPipeline;
+namespace Deepvibe\ShellCommandsPipeline\Options;
 
 /**
  * Interface OptionsInterface

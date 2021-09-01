@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Deepvibe\ShellCommandsPipeline;
+namespace Deepvibe\ShellCommandsPipeline\File;
 
 /**
  * Interface FileInterface
@@ -12,7 +12,7 @@ namespace Deepvibe\ShellCommandsPipeline;
  * @package Deepvibe\ShellCommandsPipeline
  * @author  Yurii Oblovatskyi yuriyobl@gmail.com>
  */
-class FileInterface
+interface FileInterface
 {
 
 }

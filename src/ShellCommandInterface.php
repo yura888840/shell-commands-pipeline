@@ -12,13 +12,7 @@ namespace Deepvibe\ShellCommandsPipeline;
  * @package Deepvibe\ShellCommandsPipeline
  * @author  Yurii Oblovatskyi yuriyobl@gmail.com>
  */
-interface ShellCommandInterface
+interface ShellCommandInterface extends CommandInterface
 {
-    /**
-     * @param T $payload
-     *
-     * @return mixed
-     */
-    public function __invoke($payload);
 }
 

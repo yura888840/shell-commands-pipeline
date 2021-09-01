@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"Deepvibe\\ShellCommandsPipeline\\Tests\\Unit\\MyCoolServiceTest::testOne":0.12,"Deepvibe\\ShellCommandsPipeline\\Tests\\Unit\\ShellCommandServiceTest::testOne":0.073}}
+{"version":1,"defects":{"Deepvibe\\ShellCommandsPipeline\\Tests\\Unit\\OptionsSetTest::testSetHasOptions":3},"times":{"Deepvibe\\ShellCommandsPipeline\\Tests\\Unit\\MyCoolServiceTest::testOne":0.12,"Deepvibe\\ShellCommandsPipeline\\Tests\\Unit\\ShellCommandServiceTest::testOne":0.105,"Deepvibe\\ShellCommandsPipeline\\Tests\\Unit\\OptionsSetTest::testSetHasOptions":0.047}}
